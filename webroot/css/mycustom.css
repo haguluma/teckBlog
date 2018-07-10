@@ -1,0 +1,139 @@
+/*共通*/
+.btn{
+  color:#333333;
+  background-color: #cccccc;
+  font-size: 20px;
+  line-height: : 20px;
+  text-align: center;
+  width : 100px;
+  height : 30px;
+  padding:0;
+  margin : 5px 5px 5px 0px;
+}
+.btn:hover {
+  background-color: #888888;
+  color: #ffffff;
+  padding:0;
+}
+
+.clear_fix::after{
+  content:"";
+  display: block;
+  clear:both;
+}
+
+/**/
+.top-bar.expanded {
+  background-color: #fff;
+  box-shadow: 0 0 8px;
+  margin-bottom: 20px;
+}
+
+.top-bar.expanded .title-area{
+  background-color : #fff;
+  border-right: 1px solid #aaa;
+  /*border-bottom: 1px solid black;*/
+}
+
+
+.top-bar .name h1 a{
+  color : #000000;
+  font-size : 20px;
+  text-align: center;
+}
+
+.top-bar-section ul li {
+  background-color: #fff;
+  border-right: 1px solid #aaa;
+  /*border-bottom: 1px solid black;*/
+}
+
+.top-bar.expanded, .top-bar, .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: #ccc;
+}
+
+.container{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*TOP画面*/
+.info_wrapper{
+  float: left;
+  width: 65%;
+}
+
+.tl_wrapper{
+  float: left;
+  width: 35%;
+  padding-left: 5px;
+  border-left: 1px solid #cccccc;
+}
+
+/*Article画面*/
+.article_wrapper{
+  float: left;
+  width: 75%;
+}
+
+.sidenav_wrapper{
+  float: left;
+  width: 25%;
+  padding-left: 5px;
+  border-left: 1px solid #cccccc;
+}
+
+/*記事作成画面*/
+.md_confirm{
+  display: none;
+}
+#confirm_btn{
+  float:left;
+}
+#submit_btn{
+  float:left;
+}
+
+#art_taglist {
+  width:100%;
+  margin-top:20px;
+  font-size:12px;
+  padding-left:0;
+  margin-left:0;
+}
+#art_taglist li {
+  list-style:none;
+  background-color: #cccccc;
+  margin: 3px 3px;
+  padding: 2px 3px;
+  width: 80px;
+  float: left;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.tag_close {
+  float : right;
+  background-color: #aaaaaa;
+  margin : 2px 0;
+  color: #ffffff;
+  text-align: center;
+  line-height: 18px;
+  width : 20px;
+  height :20px;
+  border-radius: 20%;
+}
+.tag_close:hover {
+  color : #333333;
+}
+
+@media (min-width: 480px) {
+
+}
